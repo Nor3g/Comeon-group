@@ -1,0 +1,33 @@
+public class ComeOn {
+
+	public void Main() {
+		
+	}
+	
+	public static String input = "345";
+	
+	public static String[] id = {"345", "32143", "", "1234"};
+	
+	public boolean match() {
+		
+		for (int i = 0; i == id.length; i++) {
+			if (input == id[i]) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public static void FindEmpty() {
+		for(int i = 0; id.length == i; i++) {
+			if(id[i] == "") {
+				//Write input to empty id spot
+			} else {
+				//next
+			}
+		}
+	}
+	
+	
+	
+}
